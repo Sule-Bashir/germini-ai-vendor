@@ -21,19 +21,6 @@ The **AI Vending Machine** implements the HTTP `402 Payment Required` status cod
 - **Arc Blockchain**: USDC payments settled on Arc with sub-second finality
 - **Autonomous Access**: AI agents can complete payment flows without human intervention
 - **Simple Integration**: Drop-in solution for existing Express.js APIs
-
-## 🏗️ Architecture
-
-```mermaid
-graph LR
-    A[AI Agent/Client] --> B[API Request];
-    B --> C{Server};
-    C -->|Payment Required| D[402 Response];
-    D --> E[Client Makes Payment];
-    E --> F[x402 Facilitator];
-    F --> G[Arc Blockchain];
-    G --> H[Payment Verification];
-    H --> I[200 OK + Content];
 🚀 Quick Start
 Prerequisites
 Node.js 16+
