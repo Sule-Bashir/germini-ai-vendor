@@ -36,7 +36,7 @@ graph LR
     G --> H[Payment Verification];
     H --> I[200 OK + Content];
 Prerequisites:
-Node.js 16+
+Node.js 16 and above 
 A Circle Developer Account
 Testnet USDC (available via Arc faucet)
 Installation
