@@ -24,7 +24,6 @@ The **AI Vending Machine** implements the HTTP `402 Payment Required` status cod
 - **Simple Integration**: Drop-in solution for existing Express.js APIs
 
 ## 🏗️ Architecture
-
 ```mermaid
 graph LR
     A[AI Agent/Client] --> B[API Request];
