@@ -35,8 +35,7 @@ graph LR
     F --> G[Arc Blockchain];
     G --> H[Payment Verification];
     H --> I[200 OK + Content];
-🚀 Quick Start
-Prerequisites
+Prerequisites:
 Node.js 16+
 A Circle Developer Account
 Testnet USDC (available via Arc faucet)
